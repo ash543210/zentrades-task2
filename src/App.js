@@ -68,7 +68,7 @@ function App() {
           />
         )}
       {showTable && selectedAttributes.length === 0 && (
-        <p>Select Fields to disply</p>
+        <p>Select Fields to display</p>
       )}
     </div>
   );
