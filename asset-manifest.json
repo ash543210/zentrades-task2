@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zentrades-task2/static/css/main.079d1bed.css",
+    "main.js": "/zentrades-task2/static/js/main.d7aca7bc.js",
+    "static/js/787.8d801b60.chunk.js": "/zentrades-task2/static/js/787.8d801b60.chunk.js",
+    "index.html": "/zentrades-task2/index.html",
+    "main.079d1bed.css.map": "/zentrades-task2/static/css/main.079d1bed.css.map",
+    "main.d7aca7bc.js.map": "/zentrades-task2/static/js/main.d7aca7bc.js.map",
+    "787.8d801b60.chunk.js.map": "/zentrades-task2/static/js/787.8d801b60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.079d1bed.css",
+    "static/js/main.d7aca7bc.js"
+  ]
+}
