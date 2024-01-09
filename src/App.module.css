@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.form {
+  width: 49%;
+  background-color: white;
+  height: 250px;
+}
+
+.form3 {
+  background-color: white;
+  height: 350px;
+}
