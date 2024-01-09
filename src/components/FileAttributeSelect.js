@@ -17,7 +17,7 @@ const FileAttributeSelect = (props) => {
         element.charAt(0).toUpperCase() + element.substring(1) + "\r\n";
     }
     setDisplayedString(newString);
-    if (displayedArray.length > 0) props.setSelectedAttributes(displayedArray);
+    props.setSelectedAttributes(displayedArray);
   }, [displayedArray]);
 
   useEffect(() => {

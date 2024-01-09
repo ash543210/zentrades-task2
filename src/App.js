@@ -58,11 +58,17 @@ function App() {
           </Button>
         </div>
       </div>
-      {isProductFileUploaded && showTable && productData && (
-        <TableData
-          selectedAttributes={selectedAttributes}
-          productData={productData}
-        />
+      {isProductFileUploaded &&
+        showTable &&
+        productData &&
+        selectedAttributes.length && (
+          <TableData
+            selectedAttributes={selectedAttributes}
+            productData={productData}
+          />
+        )}
+      {showTable && selectedAttributes.length === 0 && (
+        <p>Select Fields to disply</p>
       )}
     </div>
   );
